@@ -1,5 +1,10 @@
-
 import './App.css'
+import Counter from './counter'
+import Team from './Team';
+
+
+
+
 
 function App() {
   
@@ -19,6 +24,8 @@ function App() {
   return (
     <>
       <h3>React Core Concepts</h3>
+      <Counter></Counter>
+      <Team></Team>
       <button onClick={handleClick}>Click Me</button>
       <button onClick={handleClick2}>Click Two</button>
       <button onClick={()=>{alert('third click')}}>Click Third</button>
